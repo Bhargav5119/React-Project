@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+:root{
+  --primary-color : #ff715b;
+  --card-gray : #f8f8f8;
+  --primary-text : #2c2c2c;
+  --secondary-text : #a79997;
+}
+body{
+  overflow-x: hidden;
+}
+.app{
+  padding: 0 7%;
+  width: 100%;
+}
+
+@media (max-width:1200px) {
+  .app{
+    padding: 0 2rem;
+  }
+}
+
+.active{
+  color: red;
+}
+
+@media (max-width:992px) {
+  html{
+    font-size: 55%;
+  }
+}
+@media (max-width:500px){
+  html{
+    font-size: 50%;
+  }
+}
