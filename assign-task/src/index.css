@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.active{
+  background: #000000;
+  color: rgba(255, 255, 255, 1) !important;
+}
